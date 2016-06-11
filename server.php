@@ -1,7 +1,7 @@
 <?php
 $dsn      = 'mysql:dbname=diplom;host=localhost';
-$username = 'root';
-$password = 'qweqwe';
+$username = 'diplom';
+$password = 'FB8RPhZaeYWpsYCd';
 
 // error reporting (this is a demo, after all!)
 ini_set('display_errors',1);error_reporting(E_ALL);
