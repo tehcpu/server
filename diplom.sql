@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: localhost
--- Время создания: Июн 11 2016 г., 18:12
+-- Время создания: Июн 13 2016 г., 20:02
 -- Версия сервера: 5.6.24-0ubuntu2
 -- Версия PHP: 5.6.4-4ubuntu6
 
@@ -40,20 +40,27 @@ CREATE TABLE IF NOT EXISTS `oauth_access_tokens` (
 
 INSERT INTO `oauth_access_tokens` (`access_token`, `client_id`, `user_id`, `expires`, `scope`) VALUES
 ('00d176f2905b338183e56338f3589032f35a8ce0', 'testclient', NULL, '2016-06-09 18:10:11', NULL),
+('0138bcddaf119516b30f6d2d3ab098d4f16ed2a8', 'test', NULL, '2016-06-12 17:17:03', NULL),
 ('03495c8593be03e861f5413588cd966a39141de4', 'test4', NULL, '2016-06-09 23:39:45', NULL),
 ('037ba4f00cc54dda83104be78216a0f1fbaee32a', 'testclient', NULL, '2016-06-05 07:12:03', NULL),
+('043b61d97b56723b83d096928366f3b8a8fb0502', 'bim3', NULL, '2016-06-13 07:14:42', NULL),
 ('0747286711a3eeb4124d86e5e3a588f912d25148', 'test01', NULL, '2016-06-11 11:09:35', NULL),
 ('0cb4920682a5e7e186e60a521c714a8a35a873b7', 'test01', NULL, '2016-06-11 17:00:10', NULL),
 ('1237a6c8a02476fb9ecd99c65b37442de52f66f8', 'testclient', NULL, '2016-06-05 08:07:03', NULL),
 ('147a69de8b5afa6497447086d9b85630f9c1c0fa', 'testclient', NULL, '2016-06-05 06:47:20', NULL),
+('2028fd465c26a2461570ad8537b655f0ecf2ab59', 'test', NULL, '2016-06-12 21:26:14', NULL),
 ('23cb1df37037d48d23bb482b07f8a4ebba526b71', 'testclient', NULL, '2016-06-08 15:18:33', NULL),
 ('29043e6fa0f9b57018f0c64908d0798292bb976e', 'testclient', NULL, '2016-06-07 03:34:39', NULL),
 ('2ae7d8b1e112fb40443f7f91e533d3d92bbd636b', 'testclient', NULL, '2016-06-05 07:17:36', NULL),
+('2b5f3c41c0e1243d802d8e02ce1bdbcfb9d2fbd0', 'bim3', NULL, '2016-06-13 21:01:22', NULL),
 ('3237b9acfe762e23eca7d6255a36844880aa81d4', 'testclient', NULL, '2016-06-08 16:24:07', NULL),
+('33913bc8887ba5289f76fdbe0a60369ce73f80fb', 'bim3', NULL, '2016-06-12 22:40:24', NULL),
 ('412ed6350909521ff63e3779db8fd52a5735c5ed', 'test01', NULL, '2016-06-11 14:57:00', NULL),
+('42f6e61daa3867b051e1a6e23615420f6c945d1b', 'biv6', NULL, '2016-06-13 13:29:22', NULL),
 ('46d4377efd948b17bb1422a93b75f9e5b20b5e5a', 'testclient', NULL, '2016-06-09 17:00:41', NULL),
 ('481eb390cf7b630ceb64fe31f1519fa8dad75702', 'testclient', NULL, '2016-06-08 13:05:06', NULL),
 ('4b0bd43a59ce4b40fae1a00211b270f8ac976677', 'test01', NULL, '2016-06-11 10:08:19', NULL),
+('4df5f384ea6721ddcf4f4658a0d8cec93e207311', 'test01', NULL, '2016-06-12 17:25:10', NULL),
 ('4e2b1c0249887d3cee538f385eb46cc9be3b1f98', 'testclient', NULL, '2016-06-07 03:32:34', NULL),
 ('50ca3ed1a09704983023327df7dc1780ce5d5daa', 'testclient', NULL, '2016-06-05 08:22:51', NULL),
 ('53ab7194e88c3205a84ce693472346d36967c86f', 'test01', NULL, '2016-06-11 09:07:59', NULL),
@@ -63,20 +70,27 @@ INSERT INTO `oauth_access_tokens` (`access_token`, `client_id`, `user_id`, `expi
 ('5fd0c9336fe6eb1a5aa35a3e636e0fdc2a7121a5', 'testclient', NULL, '2016-06-05 07:56:37', NULL),
 ('6a2d2c16dd1080ed1661d6a9d4e35084dcd807d1', 'test4', NULL, '2016-06-11 08:00:47', NULL),
 ('6a2d8bee7c14091348b14733c361717136420b56', 'testclient', NULL, '2016-06-06 20:15:43', NULL),
+('7136b99523db1fbb9c5c80ff00334d58b2813d0d', 'test', NULL, '2016-06-11 22:44:30', NULL),
 ('7397998c9770236624f0e2d97fcdf9439ed6e15e', 'testclient', NULL, '2016-06-06 17:03:02', NULL),
 ('79a416a0d29a2c6018cb7a42fa5fa526017fbc75', 'testclient', NULL, '2016-06-06 15:24:17', NULL),
 ('7f3ef8b17301df95c44a941b079e6c5ab81639d3', 'test4', NULL, '2016-06-09 21:28:43', NULL),
 ('87ecdad1dbadf7c93c2db60670c8bb9b9110df64', 'test', NULL, '2016-06-11 18:12:45', NULL),
+('8a6f1f4af9fcf4b888a88516962fc138fda6cdeb', 'test01', NULL, '2016-06-11 22:46:41', NULL),
 ('93c28c3efa1b7beac68d5189c54a0e46af2ed7e8', 'testclient', NULL, '2016-06-05 08:00:52', NULL),
+('9e83bd1c5a75cc9950ff4d540a81e0bc1b7dea26', 'test01', NULL, '2016-06-11 21:55:37', NULL),
 ('a15900a1265181922a4e8074d839b7c532bbe22f', 'testclient', NULL, '2016-06-06 20:17:18', NULL),
+('a1a262ebe30e05fe9df95425fa16c39be19d6277', 'bim3', NULL, '2016-06-13 19:59:40', NULL),
+('a1bfeb778bd083b9a8c8a309161724f5a1a29d77', 'test', NULL, '2016-06-12 16:19:02', NULL),
 ('a1c9fb7e97295f9019261f99577696eb7ce3300b', 'testclient', NULL, '2016-06-07 23:22:16', NULL),
 ('ac1eddca43463187c2aacee0290f100697ec2f2a', 'testclient', NULL, '2016-06-08 18:19:25', NULL),
 ('acd33f9f9afc6afbf0290d5d453a43516bbbfb48', 'testclient', NULL, '2016-06-05 06:44:45', NULL),
 ('b2a1e0f843cb42b5364dc066af365dfbd180bdac', 'testclient', NULL, '2016-06-05 08:05:10', NULL),
 ('b4d04e1ba1288e941d6761c6947c65578dacd3be', 'testclient', NULL, '2016-06-07 04:52:12', NULL),
+('b66218daa00ef3a8716817410b343133400072c8', 'bim3', NULL, '2016-06-13 06:19:59', NULL),
 ('b8bd9798ec212a7cd27fcf20e72ba2d31b1f8042', 'test4', NULL, '2016-06-10 00:44:36', NULL),
 ('be9ac713b44bc6393c9a05bed59e909f2e05f2e2', 'test4', NULL, '2016-06-10 02:55:29', NULL),
 ('c5bda2f5f05decaa42d7f0ec865e3c0c045748e4', 'test4', NULL, '2016-06-09 20:27:32', NULL),
+('c8dad538b9107ecc89a838f607acd3bf9a5706fe', 'test01', NULL, '2016-06-12 03:41:05', NULL),
 ('c96a5b5ac0025fb47e4a39a8395905d375b555fc', 'test01', NULL, '2016-06-11 12:14:57', NULL),
 ('cc43a3f31511607f398623733b34145ec568ad75', 'testclient', NULL, '2016-06-05 06:42:00', NULL),
 ('d00bce7d5c94b2421975174b7996c8b3ed25e13e', 'test01', NULL, '2016-06-11 15:59:40', NULL),
@@ -84,6 +98,7 @@ INSERT INTO `oauth_access_tokens` (`access_token`, `client_id`, `user_id`, `expi
 ('d702273a861ee0653bedd4ad5e9c82e570e59135', 'testclient', NULL, '2016-06-05 07:10:46', NULL),
 ('e06d540797bcaf0a4de256d52b13415a11651379', 'test2', NULL, '2016-06-11 18:15:40', NULL),
 ('eaf15c979e36df9c9d1e03274fa67c07a715384b', 'testclient', NULL, '2016-06-06 23:44:32', NULL),
+('ebec511de82cfd47f067e0c9601115dc892672fb', 'test01', NULL, '2016-06-12 10:34:59', NULL),
 ('f1de3958a1f8b3ae54fe30a87feb269594b5f0e1', 'testclient', NULL, '2016-06-05 06:46:19', NULL),
 ('f65dac726e7a387a31c09bafd7ceec1b80d6f3f2', 'testclient', NULL, '2016-06-05 08:18:47', NULL),
 ('fac10fe1f433cc16da0f56a77216e68e51de5be7', 'test01', NULL, '2016-06-11 13:25:55', NULL);
@@ -126,12 +141,12 @@ CREATE TABLE IF NOT EXISTS `oauth_clients` (
 --
 
 INSERT INTO `oauth_clients` (`client_id`, `client_secret`, `redirect_uri`, `user_name`, `user_email`, `user_phone`, `grant_types`, `scope`, `user_id`) VALUES
-('test', '123456', 'http://fake/', 'andrey2', 'sao.student@yandex.ru', '8-(903)-277-77-63', NULL, NULL, NULL),
-('test01', '123654', 'http://fake/', 'ivan1', 'freeuseman@gmail.com', '8-(910)-473-94-79', NULL, NULL, NULL),
-('test2', '789654', 'http://fake/', 'aleksandr3', 'a.shuvanov@gmail.com', '8-(926)-375-10-89', NULL, NULL, NULL),
-('test3', '654321', 'http://fake/', 'irbelova1', 'irbelova1@gmail.com', '8-(903)-179-33-18', NULL, NULL, NULL),
-('test4', '123789', 'http://fake/', 'xaa1', 'xaa1@mail.msiu.ru', '8-(916)-806-99-82', NULL, NULL, NULL),
-('testclient', '5436789', 'http://fake/', 'uliana29', 'uliana-bulgakova@yandex.ru', '8-(906)-031-96-81', NULL, NULL, NULL);
+('bim3', '654321', 'http://fake/', 'Belova Irina Mixailovna', 'irbelova1@gmail.com', '8-(903)-179-33-18', NULL, NULL, NULL),
+('biv6', '123654', 'http://fake/', 'Baibuz Ivan Valerievich', 'freeuseman@gmail.com', '8-(910)-473-94-79', NULL, NULL, NULL),
+('saa2', '789654', 'http://fake/', 'Shuvanov Aleksandr ', 'a.shuvanov@gmail.com', '8-(926)-375-10-89', NULL, NULL, NULL),
+('sao7', '123456', 'http://fake/', 'Starcev Andrey Olegovich', 'sao.student@yandex.ru', '8-(903)-277-77-63', NULL, NULL, NULL),
+('tuv1', '5436789', 'http://fake/', 'Trokhimchuk Uliana Vladimirovna', 'uliana-bulgakova@yandex.ru', '8-(906)-031-96-81', NULL, NULL, NULL),
+('xaa1', '123789', 'http://fake/', 'Xarchenko Anatoliy Alekseevich', 'xaa1@mail.msiu.ru', '8-(916)-806-99-82', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -229,7 +244,15 @@ CREATE TABLE IF NOT EXISTS `updates_collector` (
   `subject_id` int(11) NOT NULL,
   `client_id` varchar(11) NOT NULL,
   `choice` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+--
+-- Дамп данных таблицы `updates_collector`
+--
+
+INSERT INTO `updates_collector` (`id`, `subject_id`, `client_id`, `choice`) VALUES
+(1, 2, 'bim3', 0),
+(2, 2, 'biv6', 1);
 
 --
 -- Индексы сохранённых таблиц
@@ -296,7 +319,7 @@ ALTER TABLE `subjects`
 -- AUTO_INCREMENT для таблицы `updates_collector`
 --
 ALTER TABLE `updates_collector`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
